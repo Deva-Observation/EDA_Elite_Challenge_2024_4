@@ -6,8 +6,8 @@ from multiprocessing import freeze_support
 import time
 
 # 读取多边形数据
-#_, _, coords_source = read_pattern.read_pattern_polygon("small_pattern.txt", "pattern1", "pattern2", "layer4", "layer5")
-#_, coords_target = read_pattern.read_case_polygon("small_case.txt", "layer1", "layer2")
+#_, _, coords_source = read_pattern.read_pattern_polygon("./data/small_pattern.txt", "pattern1", "pattern2", "layer3", "layer4")
+#_, coords_target = read_pattern.read_case_polygon("./data/small_case.txt", "layer1", "layer2")
 
 # 比较多边形
 #pattern_match.compare_polygons(coords_source, coords_target)
